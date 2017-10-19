@@ -1,0 +1,25 @@
+{
+  "name": "aligner-golang",
+  "main": "./lib/main",
+  "version": "1.3.0",
+  "description": "Aligner support for Go in Atom",
+  "keywords": [
+    "aligner",
+    "alignment",
+    "align",
+    "golang"
+  ],
+  "repository": "https://github.com/timfallmk/atom-aligner-golang",
+  "license": "GPLv3",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "dependencies": {},
+  "providedServices": {
+    "aligner.provider": {
+      "versions": {
+        "1.0.0": "getProvider"
+      }
+    }
+  }
+}
